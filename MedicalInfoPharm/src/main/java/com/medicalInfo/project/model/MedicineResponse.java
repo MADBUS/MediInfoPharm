@@ -1,6 +1,6 @@
 package com.medicalInfo.project.model;
 
-import java.util.List;
+import java.util.List; 
 
 public class MedicineResponse {
     private Header header;

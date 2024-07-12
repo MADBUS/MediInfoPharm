@@ -24,9 +24,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.medicalInfo.project.model.MedicineResponse;
+import com.medicalInfo.project.model.QaDTO;
 import com.medicalInfo.project.service.MedicineService;
+import com.medicalInfo.project.service.QaService;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.log4j.Log4j;
 
 @Controller
+@RequiredArgsConstructor
+@Log4j
 public class MedicineController {
 	
 	@Autowired
@@ -97,7 +104,7 @@ public class MedicineController {
     
     }
 	
-
+	
 	
 }
 	
